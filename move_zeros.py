@@ -1,4 +1,7 @@
 def move_zeros_to_left(A):
+    if len(A) < 1:
+        return
+        
     lengthA = len(A)
     read_index = lengthA - 1
     write_index = lengthA - 1
